@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+.chatsPage {
+  flex: 0.3;
+  background-color: #f2f2f3;
+  display: flex;
+  flex-direction: column;
+}
+.chat__search {
+  flex: 0.1;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.search__input {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-size: 17px;
+  width: 80%;
+}
+.search__ico {
+  color: lightgray !important;
+  font-size: 35px !important;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.chatsPagelist {
+  margin: 5px 10px;
+  flex: 0.9;
+  overflow-y: scroll;
+}
+.chatsPagelist::-webkit-scrollbar {
+  display: none;
+}

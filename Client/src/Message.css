@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+.message {
+  height: fit-content;
+  width: fit-content;
+  min-width: 160px;
+  max-width: 40vw;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px gray;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.received {
+  margin-left: auto;
+  background-color: #44d6b7;
+  color: white;
+}
+.message > p {
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: auto;
+}
+.message > span {
+  font-size: 10px;
+  margin: 5px;
+  margin-right: 8px;
+  margin-left: auto;
+}
